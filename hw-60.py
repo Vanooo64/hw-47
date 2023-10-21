@@ -30,6 +30,7 @@ def custom_greet(self):
 def custom_description(self):
     print(f"Person<{self.name}, {self.age}, {self.gender}>")
 
+
 Student = type('Student', (object,), {
     'team': "Python31",
     '__slots__': ['name', 'age', 'gender'],

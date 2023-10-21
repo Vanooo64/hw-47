@@ -9,6 +9,7 @@ class NameDescriptor: #дескриптор для username, first_name, last_na
         self.max_length = max_length
         self.allow_chars = allow_chars
 
+
     def __get__(self, instance, owner):
         if self.var is None:
             return None
@@ -43,6 +44,8 @@ class PasswordEmailDescriptor: #дескриптор для Password, Email
 
     def __set_name__(self, owner, name):
         self.var = name
+
+
 
     def __set__(self, instance, value):
         if not isinstance(value, str):
