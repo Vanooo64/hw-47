@@ -1,0 +1,25 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE-specific files and folders
+.vscode/
+.idea/
+
+# Environment-specific files
+.env
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Package distribution / installation
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
